@@ -19,7 +19,7 @@ export default function ResultCard() {
         </p>
       </div>
       <div className="flex flex-col space-y-3">
-        <h2 className="text-[var(--white)] text-4xl font-semibold">Great</h2>
+        <h2 className="text-[var(--white)] text-[2rem] font-semibold">Great</h2>
         <p className="text-[18px] text-[var(--light-lavender)] leading-tight pb-[0.5rem]">
           You scored higher than 65% of the people who have taken these tests.
         </p>

@@ -10,10 +10,14 @@
 
   /* Primary */
 
-  --light-red: hsl(0, 100%, 67%);
-  --rangey-yellow: hsl(39, 100%, 56%);
-  --green-teal: hsl(166, 100%, 37%);
-  --cobalt-blue: hsl(234, 85%, 45%);
+  --red: hsl(0, 100%, 67%);
+  --light-red: hsla(0, 100%, 67%, 0.1);
+  --yellow: hsl(39, 100%, 56%);
+  --light-yellow: hsla(39, 100%, 56%, 0.1);
+  --green: hsl(166, 100%, 37%);
+  --light-green: hsla(166, 100%, 37%, 0.1);
+  --blue: hsl(234, 85%, 45%);
+  --light-blue: hsla(234, 85%, 45%, 0.1);
 
   /* Gradients */
 
