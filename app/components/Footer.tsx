@@ -1,6 +1,8 @@
-export default function Footer() {
+import { JSX } from "react";
+
+export default function Footer(): JSX.Element {
   return (
-    <div className="text-center p-[3rem] md:pt-[3rem] md:pb-[0rem] text-xs">
+    <div className="text-center p-[3rem] md:pt-[3rem] md:pb-[0rem] text-xs text-[var(--violet-blue)]">
       Challenge by{" "}
       <a
         href="https://www.frontendmentor.io?ref=challenge"

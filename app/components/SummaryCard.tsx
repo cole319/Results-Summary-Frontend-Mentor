@@ -14,7 +14,7 @@ export default function SummaryCard({
   text_color,
   score,
   icon,
-}: SummaryCardProps) {
+}: SummaryCardProps): JSX.Element {
   return (
     <div
       className={`flex ${bg_color} justify-between items-center w-full py-[1rem] px-[0.5rem] xs:p-[1rem] rounded-xl text-[0.9rem] font-bold`}

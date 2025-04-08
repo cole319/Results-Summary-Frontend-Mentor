@@ -1,4 +1,6 @@
-export default function ResultCard() {
+import { JSX } from "react";
+
+export default function ResultCard(): JSX.Element {
   return (
     <div
       className="bg-gradient-to-b from-[var(--light-slate-blue)] to-[var(--light-royal-blue)] h-full

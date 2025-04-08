@@ -1,15 +1,18 @@
-// import Image from "next/image";
+import { JSX } from "react";
+
+/* Internal import */
 import ResultCard from "./components/ResultCard";
 import SummaryCard from "./components/SummaryCard";
 import Button from "./components/Button";
 import Footer from "./components/Footer";
 
+/* Icons */
 import ReactionIcon from "./assets/icon-reaction.svg";
 import MemoryIcon from "./assets/icon-memory.svg";
 import VerbalIcon from "./assets/icon-verbal.svg";
 import VisualIcon from "./assets/icon-visual.svg";
 
-export default function Home() {
+export default function Home(): JSX.Element {
   return (
     <main className="bg-[var(--pale-blue)] min-h-screen flex flex-col justify-center items-center ">
       <div className="flex flex-col md:flex-row bg-[var(--white)] w-full md:w-3/4 custom__md:w-1/2 rounded-3xl shadow-[hsla(241,72%,46%,0.1)] shadow-lg">
